@@ -15,6 +15,7 @@ int main()
     scanf("%d",&minute);
     printf("\nEnter current seconds which is less than 60:");
     scanf("%d",&second);
+	system("cls");
  	gotoxy(32,06);
  	printf("\nInitializing your clock....");
  	gotoxy(32,07);
